@@ -1,3 +1,20 @@
 .banner-height{
     height: 35rem;
 }
+.my-card li{
+    list-style: none;
+}
+.my-card:hover{
+    background-color: blue;
+    transform: scaleY(1.5);
+    transition: transform .4s;
+    border-radius: 10px;
+}
+
+.card-list li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0074D9;
+  }
